@@ -1,0 +1,34 @@
+.book-list {
+  padding: 2rem 0;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #6c757d;
+}
+
+.empty-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.empty-state h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #495057;
+}
+
+body.dark-mode .empty-state h3 {
+  color: #e9ecef;
+}
+
+.empty-state p {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+body.dark-mode .empty-state p {
+  color: #adb5bd;
+}

@@ -1,0 +1,50 @@
+.footer {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem 0;
+  margin-top: auto;
+}
+
+body.dark-mode .footer {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+}
+
+.footer-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.footer-text {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.footer-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 1rem auto;
+  max-width: 200px;
+}
+
+.footer-copyright {
+  font-size: 0.875rem;
+  opacity: 0.8;
+  margin: 0;
+}
